@@ -1,0 +1,6 @@
+aux_source_directory(./ file)
+include_directories(../myLib)
+set(EXECUTABLE_OUTPUT_PATH ../bin)
+link_directories(../build/lib)
+link_libraries(myLib)
+add_executable(mian ${file})
