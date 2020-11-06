@@ -5,4 +5,4 @@
 /home/keeyu/mycode/CMakeTest/CMakeTest/build/myLib/CMakeFiles/myLib.dir
 /home/keeyu/mycode/CMakeTest/CMakeTest/build/src/CMakeFiles/rebuild_cache.dir
 /home/keeyu/mycode/CMakeTest/CMakeTest/build/src/CMakeFiles/edit_cache.dir
-/home/keeyu/mycode/CMakeTest/CMakeTest/build/src/CMakeFiles/mian.dir
+/home/keeyu/mycode/CMakeTest/CMakeTest/build/src/CMakeFiles/main.dir

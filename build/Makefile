@@ -124,17 +124,17 @@ myLib/fast:
 .PHONY : myLib/fast
 
 #=============================================================================
-# Target rules for targets named mian
+# Target rules for targets named main
 
 # Build rule for target.
-mian: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mian
-.PHONY : mian
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-mian/fast:
-	$(MAKE) -f src/CMakeFiles/mian.dir/build.make src/CMakeFiles/mian.dir/build
-.PHONY : mian/fast
+main/fast:
+	$(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 # Help Target
 help:
@@ -145,7 +145,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... myLib"
-	@echo "... mian"
+	@echo "... main"
 .PHONY : help
 
 

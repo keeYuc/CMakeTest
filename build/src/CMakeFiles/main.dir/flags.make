@@ -6,5 +6,5 @@ CXX_FLAGS =  -O3 -Wall   -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/keeyu/mycode/CMakeTest/CMakeTest/src/../myLib 
 

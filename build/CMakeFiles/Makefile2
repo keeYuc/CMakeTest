@@ -92,7 +92,7 @@ myLib/clean: myLib/CMakeFiles/myLib.dir/clean
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
-src/all: src/CMakeFiles/mian.dir/all
+src/all: src/CMakeFiles/main.dir/all
 
 .PHONY : src/all
 
@@ -102,7 +102,7 @@ src/preinstall:
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
-src/clean: src/CMakeFiles/mian.dir/clean
+src/clean: src/CMakeFiles/main.dir/clean
 
 .PHONY : src/clean
 
@@ -134,31 +134,31 @@ myLib/CMakeFiles/myLib.dir/clean:
 .PHONY : myLib/CMakeFiles/myLib.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/mian.dir
+# Target rules for target src/CMakeFiles/main.dir
 
 # All Build rule for target.
-src/CMakeFiles/mian.dir/all: myLib/CMakeFiles/myLib.dir/all
-	$(MAKE) -f src/CMakeFiles/mian.dir/build.make src/CMakeFiles/mian.dir/depend
-	$(MAKE) -f src/CMakeFiles/mian.dir/build.make src/CMakeFiles/mian.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/keeyu/mycode/CMakeTest/CMakeTest/build/CMakeFiles --progress-num=1,2 "Built target mian"
-.PHONY : src/CMakeFiles/mian.dir/all
+src/CMakeFiles/main.dir/all: myLib/CMakeFiles/myLib.dir/all
+	$(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/depend
+	$(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/keeyu/mycode/CMakeTest/CMakeTest/build/CMakeFiles --progress-num=1,2 "Built target main"
+.PHONY : src/CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/mian.dir/rule: cmake_check_build_system
+src/CMakeFiles/main.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/keeyu/mycode/CMakeTest/CMakeTest/build/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/mian.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/keeyu/mycode/CMakeTest/CMakeTest/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/mian.dir/rule
+.PHONY : src/CMakeFiles/main.dir/rule
 
 # Convenience name for target.
-mian: src/CMakeFiles/mian.dir/rule
+main: src/CMakeFiles/main.dir/rule
 
-.PHONY : mian
+.PHONY : main
 
 # clean rule for target.
-src/CMakeFiles/mian.dir/clean:
-	$(MAKE) -f src/CMakeFiles/mian.dir/build.make src/CMakeFiles/mian.dir/clean
-.PHONY : src/CMakeFiles/mian.dir/clean
+src/CMakeFiles/main.dir/clean:
+	$(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/clean
+.PHONY : src/CMakeFiles/main.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
