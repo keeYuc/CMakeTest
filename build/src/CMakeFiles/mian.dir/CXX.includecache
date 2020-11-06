@@ -6,3 +6,13 @@
 
 #IncludeRegexTransform: 
 
+../myLib/myLib.h
+iostream
+-
+
+/home/keeyu/mycode/CMakeTest/CMakeTest/src/main.cpp
+iostream
+-
+myLib.h
+/home/keeyu/mycode/CMakeTest/CMakeTest/src/myLib.h
+

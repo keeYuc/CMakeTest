@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/mian.dir/main.cpp.o  -o ../bin/mian   -L/home/keeyu/mycode/CMakeTest/CMakeTest/src/../build/lib  -Wl,-rpath,/home/keeyu/mycode/CMakeTest/CMakeTest/src/../build/lib ../lib/libmyLib.a 
+/usr/bin/c++  -O0 -Wall -g -ggdb  -rdynamic CMakeFiles/mian.dir/main.cpp.o  -o ../bin/mian   -L/home/keeyu/mycode/CMakeTest/CMakeTest/src/../build/lib  -Wl,-rpath,/home/keeyu/mycode/CMakeTest/CMakeTest/src/../build/lib ../lib/libmyLib.a 
