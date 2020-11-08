@@ -1,1 +1,0 @@
-/usr/bin/c++   -O3 -Wall  -rdynamic CMakeFiles/main.dir/main.cpp.o  -o ../bin/main   -L/home/keeyu/mycode/CMakeTest/CMakeTest/src/../build/lib  -Wl,-rpath,/home/keeyu/mycode/CMakeTest/CMakeTest/src/../build/lib ../lib/libmyLib.a 
